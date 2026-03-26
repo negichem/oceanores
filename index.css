@@ -1,15 +1,12 @@
-body{
-  font-family: 'Mochiy Pop P One';
-  margin: 0px;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
-}
+@charset"UTF-8";
 
 header{
   background-color: #456270;
   color: #ffffff;
   padding:1px;
+  max-width: 1980px;
+  margin-left: auto;
+  margin-right: auto;
   ul{
     list-style-type: none;
     li{
@@ -22,6 +19,15 @@ header{
     }
   }
 }
+
+body{
+  font-family: 'Noto Sans JP';
+  margin: 0px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 
 main{
   margin-left: 50px;
