@@ -1,12 +1,24 @@
 @charset"UTF-8";
 
+body{
+  font-family: 'Noto Sans JP';
+  margin: 0px;
+}
+
+.mainpage{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  min-height: 95vh;
+}
+
 header{
   background-color: #456270;
   color: #ffffff;
   padding:1px;
-  max-width: 1980px;
-  margin-left: auto;
-  margin-right: auto;
+  position: sticky;
+  top: 0;
+  width: 100%;
   ul{
     list-style-type: none;
     li{
@@ -32,31 +44,14 @@ body{
 main{
   margin-left: 50px;
   margin-right: 50px;
-  h1{
-    text-align: center;
-  }
-  p{
-    display: inline-block;
-    ul{
-       list-style-type: none;
-       a{
-         text-decoration: none;
-         color: #000000;
-       }
-     }
-  }
-  .img1{
-    display: inline-block;
-  }
-}
-
-.profile{
-  ul{
-    list-style-type: none;
-    li{
-      margin-bottom: 10px;
+  text-align: center;
+  table{
+    display: flex;
+    justify-content: center;
+    a{
+      color: #0185a4;
+      text-decoration: none;
     }
-
   }
 }
 
