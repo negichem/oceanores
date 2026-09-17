@@ -54,6 +54,16 @@ main{
     }
   }
 }
+
+.title{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.title > img{
+  width: 500px;
+}
+
 td, th{
   padding: 4px 10px;
   text-align: left;
